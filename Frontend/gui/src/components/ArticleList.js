@@ -1,5 +1,6 @@
 import React from 'react';
 import Article from '../components/Article';
+import CustomForm from '../components/Form';
 import axios from 'axios';
 const listData = [];
 
@@ -35,7 +36,12 @@ class ArticleList extends React.Component{
 
     render(){
         return(
+            <div>
             <Article data={this.state.articles}/>
+            <h2> Create Article </h2>
+            <br/>
+            <CustomForm/>
+            </div>
         )
     }
 }
