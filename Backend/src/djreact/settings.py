@@ -40,6 +40,12 @@ INSTALLED_APPS = [
     'rest_framework',
     'articles',
     'corsheaders',
+    'rest_framework.authtoken',
+    'rest_auth',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'rest_auth.registration',
 ]
 #  'rest_framework', 'articles' added
 #  'corheaders' has been added for connection with react.js, but it is needed from Django
@@ -56,7 +62,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'djreact.urls'
-
+SITE_ID = 1
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
