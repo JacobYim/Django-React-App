@@ -3,7 +3,7 @@ import { Form, Input, Button } from 'antd';
 const FormItem = Form.Item;
 
 class CustomForm extends React.Component {
-    
+     
   render() {
     return (
       <Form label = "Form Layout">
