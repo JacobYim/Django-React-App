@@ -1,4 +1,4 @@
-import * as actionTypes from '../actions/actionTyes';
+import * as actionTypes from '../actions/actionTypes';
 import { updateObject } from '../utility';
 
 // reducer takes the action and state and change the differences with the uility function
